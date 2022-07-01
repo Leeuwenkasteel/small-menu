@@ -1,0 +1,32 @@
+{
+    "name": "leeuwenkasteel/small-menu",
+    "description": "Small menu",
+    "type": "package",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Sanne van Leeuwen",
+            "email": "sanne@leeuwenkasteel.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Leeuwenkasteel\\SmallMenu\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Leeuwenkasteel\\SmallMenu\\SmallMenuServiceProvider"
+            ]
+        },
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
+    
